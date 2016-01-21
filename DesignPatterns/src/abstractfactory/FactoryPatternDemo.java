@@ -4,6 +4,7 @@ import abstractfactory.color.Color;
 import abstractfactory.shape.Shape;
 
 public class FactoryPatternDemo {
+	
 	public static void main(String[] args) {
 		AbstractFactory shapeFactory = FactoryProducer.getFactory("shape");
 		
